@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f4f4f4;
+    color: #555;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: green;
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .button {
+    background-color: #333;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    display: inline-block;
+  }
+  .button:hover {
+    background: red;
+    color: #fff;
+  }
+  
+  .clr {
+    clear: both;
+  }
+  
+  .box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px dotted red;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  .box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 1em;
+  }
+  
+  .box-2 {
+    border: 3px dotted #ccc;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .categories {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  .categories h2 {
+    text-align: center;
+  }
+  .categories ul {
+    list-style: none;
+    padding-left: 20px;
+  }
+  .categories li {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #333;
+    list-style-image: url('images/check.png');
+  }
+  
+  .my-form .form-group {
+    padding: 15px 0;
+  }
+  .my-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .my-form input[type="text"],
+  .my-form textarea {
+    padding: 8px;
+    width: 100%;
+  }
+  
+  .blocks {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .block {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 32%;
+  }
+  
+  #main-block {
+    width: 70%;
+    margin-top: 30px;
+  } 
+  
+  #sidebar {
+    float: top;
+    width: 35%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+  }
+  
+  .p-box {
+    width: 800px;
+    height: 500px;
+    border: 3px solid #000;
+    margin-top: 35px;
+    position: relative;
+    background-image: url('images/bgimages.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .p-box h1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+  }
+  
+  .p-box h2 {
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+  }
+  
+  .fix-me {
+    position: fixed;
+    top: 400px;
+    left: 30px;
+  }
+  .my-list li:first-child{
+    background: red;
+  }
+  .my-list li:last-child{
+    background: blue;
+  }
+  .my-list li:nth-child(5){
+    background: yellow;
+  }
+
+  
